@@ -14,7 +14,6 @@ First add configuration in `_config.yml` from your hexo project.
 
 ```yaml
 addlink:
-  domain: yourdomain.com # the domain of your site
   before_text: hello # text before the post link
   after_text: bye # text after the post link
 ```
