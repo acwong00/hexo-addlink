@@ -2,8 +2,6 @@ const hexo = hexo || {};
 const config = hexo.config;
 const addlink = hexo.config.addlink;
 
-// Jamling: addlink.domian is unnessary. use config.url to replace.
-
 hexo.extend.filter.register('before_post_render', data => {
   if (!addlink || !config.url || data.layout !== 'post') {
     return data;
