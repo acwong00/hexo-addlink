@@ -1,6 +1,6 @@
 {
   "name": "hexo-addlink",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An useful tool for adding current post link in hexo post page.",
   "main": "index.js",
   "scripts": {
